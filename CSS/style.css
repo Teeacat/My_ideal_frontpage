@@ -1,18 +1,21 @@
 body{
-    background-color: rgb(197, 255, 238);
+    background-color:#2B4651;
 }
 h1{
     color: rgb(18, 19, 19);
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
     color: rgb(18, 19, 19);
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
-    color: rgb(45, 50, 50);
-    text-align: center;
+    color: #7B4D67;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    padding-left: 650px;
+}
+article{
+    text-align: center;
 }
