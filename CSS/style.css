@@ -1,21 +1,37 @@
-body{
-    background-color:#2B4651;
+body {
+    background-color:#CEBACF;
 }
-h1{
-    color: rgb(18, 19, 19);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h2{
-    color: rgb(18, 19, 19);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-p{
-    color: #7B4D67;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-img{
-    padding-left: 650px;
-}
-article{
+header {
+    color: #66645E;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: #9D728F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#main-title {
+    color: #66645E;
+    font-size: 40pt;
+}
+h2 {
+    color: #9D728F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color: #141616;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-picture {
+    content-visibility: 50;
+}
+article {
+    text-align: center;
+}
+:any-link {
+    color: #7B4D67;
+}
+.header-text{
+    word-spacing: 120px;
+    font-family: Arial, Helvetica, sans-serif;
 }
