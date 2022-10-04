@@ -1,5 +1,5 @@
 body {
-    background-color:#CEBACF;
+    background-color:#051F20;
     text-align: center;
 }
 header {
@@ -22,9 +22,6 @@ p {
     color: #141616;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.main-picture {
-    content-visibility: 50;
-}
 :any-link {
     color: #7B4D67;
 }
@@ -39,4 +36,23 @@ p {
     width: 50%;
     border: 3px solid rgb(35, 35, 35);
     padding: 10px;
+}
+
+.header1{
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+}
+.header2{
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+}
+.header3{
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+}
+.main-picture{
+    width: 100%;
 }
