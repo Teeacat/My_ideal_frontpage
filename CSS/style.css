@@ -53,10 +53,11 @@ nav {
 }
 .piecebox_one {
     width: 100%;
-    
+
 }
 .projectimg {
-    width: 40px;
+    width: 40%;
+    float: left;
 
 }
 .sideparagraph {
