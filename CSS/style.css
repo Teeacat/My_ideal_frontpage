@@ -2,6 +2,10 @@ body {
     background-color:#2F3E46;
     text-align: center;
 }
+main {
+    box-sizing: border-box;
+    padding: 0 20% 0 20%;
+}
 h1 {
     color: #CAD2C5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,7 +34,7 @@ header {
     .navheader {
     display: flex;
     justify-content: flex-end;
-}
+    }
 } 
 .hamburger {
     display: flex;
@@ -72,7 +76,7 @@ nav {
     margin: auto;
     width: 100%;
     box-sizing: border-box;
-    padding: 5px 10% 0 10%;
+    padding: 5px 10% 5px 10%;
 
     
 }
