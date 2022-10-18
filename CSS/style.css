@@ -53,10 +53,15 @@ nav {
 }
 .piecebox_one {
     width: 100%;
+    
 }
 .projectimg {
     width: 40px;
-    
+
+}
+.sideparagraph {
+    color: #2F3E46;
+    text-align: right;
 }
 .footerbox {
     height: 300px;
