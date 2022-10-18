@@ -78,16 +78,17 @@ nav {
 }
 .aah{
     display: flex;
+    justify-content: flex-end;
     
-}
-.projectimg {
-    height: 5%;
-    float: left;
-
 }
 .sideparagraph {
     color: #2F3E46;
     display: inline-block;
+}
+.portfolioimg {
+    display: flex;
+    justify-content: flex-start;
+
 }
 .footerbox {
     height: 300px;
