@@ -19,8 +19,8 @@ h3 {
 }
 p {
     color: #CAD2C5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 header {
     color: #CAD2C5;
@@ -28,7 +28,7 @@ header {
 }
 .headerimg {
     width: 100%;
-    
+
 }
 .sub-title {
     color: #2F3E46;
