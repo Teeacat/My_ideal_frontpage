@@ -87,7 +87,7 @@ nav {
 }
 .sideparagraph {
     color: #2F3E46;
-    text-align: right;
+    display: inline-block;
 }
 .footerbox {
     height: 300px;
