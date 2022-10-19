@@ -77,29 +77,31 @@ nav {
     width: 100%;
     box-sizing: border-box;
     padding: 5px 10% 5px 10%;
-
-    
 }
+
 .first-paragraph {
     color: #CAD2C5;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-
 .footerbox {
-    height: 300px;
+    height: 500px;
     margin: auto;
     width: 100%;
     padding: 10px;
 }
 .footertext {
     font-size: 13px;
+    color: #CAD2C5;
 }
 
 /*--Portfolio section--*/
+.portfoliosectionheader {
+    color: #2F3E46;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
 
-  /* Center website */
-  
   .row {
     margin: 8px -16px;
   }
@@ -107,13 +109,13 @@ nav {
   /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 13px;
   }
   
   /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 45%;
+    width: 47%;
   }
   
   /* Clear floats after rows */
