@@ -6,13 +6,22 @@ main {
     box-sizing: border-box;
     padding: 0 10% 0 10%;
 }
+
+img {
+    border: #CAD2C5;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+/* FONT CONTROL */
 h1 {
     color: #354F52;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2 {
     color: #354F52;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 12px;
     font-size: 40pt;
 }
@@ -24,9 +33,11 @@ h3 {
 p {
     color: #c0c7bc;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
+/* FONT CONTROL */
 
+/* NAVBAR */
 header {
     color: #354F52;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -42,6 +53,9 @@ header {
     justify-content: flex-end;
     }
 } 
+/* NAVBAR END */
+
+/* BURGR */
 .hamburger {
     display: flex;
     width: 2rem;
@@ -54,6 +68,7 @@ header {
     }
     
 }
+/* BURGR END */
 
 .headerimg {
     width: 10%;
@@ -62,20 +77,21 @@ header {
 }
 .sub-title {
     color: #CAD2C5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 12px;
     font-size: 40pt;
 }
-
 
 :any-link {
     color: #84A98C;
 }
 nav {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
     display: flex;
     list-style: none;
-    gap: 20px;  
+    gap: 25px;  
+    padding: 5px 5px 10px 5px;
 }
 .portfoliobox{
     background-color: #2F3E46;
@@ -85,15 +101,28 @@ nav {
     padding: 5px 10% 5px 10%;
     border-radius: 20px;
 }
-
+/* ABOUT SECTION*/
 .first-paragraph {
     color: #2F3E46;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 1em 20em 10em 20em;
+
 }
+.about{
+    padding: 10px 0px 30px 0px;
+
+
+}
+@media screen and (max-width: 900px) {
+    .about {
+      width: 100%;
+    }
+  }
+
+/* ABOUT SECTION END*/
+
 .footerbox {
-    height: 500px;
+    height: 100px;
     margin: auto;
     width: 100%;
     padding: 10px;
@@ -108,44 +137,40 @@ nav {
     color: #CAD2C5;
     font-size: 30px;
     letter-spacing: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
   .row {
     margin: 8px -16px;
   }
-  
-  /* Add padding BETWEEN each column (if you want) */
+
   .row,
   .row > .column {
     padding: 13px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
     width: 47%;
   }
   
-  /* Clear floats after rows */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
   .content {
     padding: 10px;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
