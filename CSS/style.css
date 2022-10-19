@@ -17,7 +17,7 @@ h2 {
     font-size: 40pt;
 }
 h3 {
-    color: #CAD2C5;
+    color: #354F52;
     font-size: 25px;
 }
 
@@ -55,7 +55,7 @@ header {
 
 }
 .sub-title {
-    color: #2F3E46;
+    color: #354F52;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 12px;
     font-size: 40pt;
@@ -85,39 +85,62 @@ nav {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-.project-title {
-    color: #2F3E46;
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.sideparagraph {
-    display: flex;
-    justify-content: right;
-    color: #2F3E46;
-    
-}
 
-.portfolioimg {
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-.portfolioimg_reverse {
-    display: flex;
-    justify-content: flex-end;
-}
-.sideparagraph_reverse {
-    display: flex;
-    justify-content: left;
-    color: #2F3E46;
-}
 .footerbox {
     height: 300px;
     margin: auto;
-    width: 100%;
+    width: 100%;+
     padding: 10px;
 }
 .footertext {
     font-size: 13px;
 }
+
+/*--Portfolio section--*/
+
+  /* Center website */
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 45%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+/*Portfolio section end*/
