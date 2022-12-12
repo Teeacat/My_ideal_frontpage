@@ -60,13 +60,14 @@ header {
     display: flex;
     width: 2rem;
     align-self: flex-end;
-    padding: 1rem 1rem 0 0;
+    border-radius: 0px;
+   /* padding: 1rem 1rem 0 0; */
 }
 @media screen and (min-width: 900px) {
     .hamburger {
         display: none;
     }
-    
+
 }
 /* BURGR END */
 
@@ -171,9 +172,12 @@ nav {
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .column {
       width: 100%;
+    }
+    .sub-title {
+      font-size: 35px;
     }
   }
 
